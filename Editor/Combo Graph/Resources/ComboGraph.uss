@@ -1,0 +1,22 @@
+GridBackground{
+    --grid-background-color: #282828;
+    --line-color: rgba(193, 196, 192, 0.1);
+    --thick-line-color: rgba(193, 196, 192, 0.1);
+    --spacing: 10;
+}
+
+TextField{
+    max-width: 125px;
+}
+
+ComboNode #title{
+    background-color: green;
+}
+
+ComboNode #main{
+    background-color: red;
+}
+
+ComboNode #node-border{
+    background-color: #4C4C4C;
+}

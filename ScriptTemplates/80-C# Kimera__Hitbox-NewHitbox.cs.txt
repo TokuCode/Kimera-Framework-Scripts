@@ -1,0 +1,28 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+#ROOTNAMESPACEBEGIN#
+namespace Features
+{
+    public class #SCRIPTNAME# : Hitbox
+    {
+        //States
+        //Properties
+        //Properties / Tag to include: specific tags
+        //References
+        //Componentes
+
+        protected override void InteractEntity(Controller interactor)
+        {
+            //Logica Link
+            //Especificar el tipo de link que se va a crear
+        }
+
+        protected override void InteractObject(GameObject gameObject)
+        {
+            //Logica otros sistemas
+        }
+    }
+}
+#ROOTNAMESPACEEND#
